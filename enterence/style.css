@@ -15,6 +15,10 @@ main{
     margin: 16px 0;
 }
 
+.odsazeni label{
+    width: 150PX;
+}
+
 .buttons a{
     background-color: red;
     color:azure;
@@ -22,8 +26,8 @@ main{
 }
 
 .buttons{
-    width: 50%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 10px;
 }
